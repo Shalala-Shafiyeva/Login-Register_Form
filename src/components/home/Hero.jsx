@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 function Hero() {
   return (
     <div className="hero">
-      <div className="wrapper">
+      <div className="home-wrapper">
         <div className="left">
           <div className="text">
             <h2>Aгропромышленный холдинг «Залесье»</h2>
@@ -33,7 +33,7 @@ function Hero() {
           </div>
           <div className="about">
             <span>О нас</span>
-            <Link to="#">
+            <Link to="#" id="hero-about">
               <div className="line-icon">
                 <i class="fa-solid fa-grip-lines"></i>
               </div>
@@ -44,6 +44,9 @@ function Hero() {
             </Link>
           </div>
         </div>
+        <Link to="#our-mission" className="scroll-button">
+          <i class="fa-solid fa-arrow-down"></i>
+        </Link>
       </div>
     </div>
   );
