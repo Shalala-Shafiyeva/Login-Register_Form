@@ -196,32 +196,32 @@
 
 .our-mission .container{
   width: 90%;
-  height: 100%;
+  height: max-content;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: #fff;
+  position: relative;
 }
 
 .our-mission .container .left{
   width: 50%;
-  height: max-content;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
   padding: 5% 8% 5% 0;
-  position: relative;
   z-index: 1;
 }
 
 .our-mission .container .left img{
   position: absolute;
   bottom: 0;
-  right: 0;
-  width: 40%;
+  right: 50%;
+  width: 25%;
   z-index: -1;
 }
 
@@ -246,7 +246,7 @@
 
 .our-mission .container .right{
   width: 50%;
-  height: 100%;
+  height: max-content;
 }
 
 .our-mission .cards{
@@ -267,12 +267,12 @@
 
 .our-mission .cards .card{
   width: 50%;
-  padding: 20% 10%;
+  padding: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50%;
+  gap: 50px;
 }
 
 .our-mission .cards .card .num{
@@ -288,8 +288,7 @@
   border-right: 1px solid rgb(202, 201, 201);
 }
 
-.our-mission .cards .card:last-of-type{
-  border-left: 1px solid rgb(202, 201, 201);
+.our-mission .cards .card:last-of-type{ 
   border-right: 1px solid rgb(202, 201, 201);
 }
 
